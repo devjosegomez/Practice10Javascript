@@ -17,7 +17,7 @@ for (const prop in obj) {
   console.log(`obj.${prop} = ${obj[prop]}`);
 }
 
-function GiveMin(){
+function getMin(){
     let min=arguments[0];
     for(let i=0; i<arguments.length; i++){
             if(arguments[i]<min){
@@ -27,5 +27,6 @@ function GiveMin(){
     return min;
 }
 
+let a =[199,28,323];
 console.log(Math.min(10,200,2,-1,22));
-console.log(GiveMin(199,28,323));
+console.log(getMin(... a));
