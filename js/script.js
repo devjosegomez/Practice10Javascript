@@ -70,6 +70,8 @@ function pow(base, exponent){
     return result;
 }
 
+
+
 console.log(number1 + "+" + number2 + "=" + (number1+number2));
 console.log(number1 + "+" + number2 + "=" + Sum(number1, number2));
 console.log(number1 + "-" + number2 + "=" + Resta(number1, number2));
